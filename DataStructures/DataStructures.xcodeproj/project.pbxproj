@@ -14,6 +14,7 @@
 		53F3A61F230982F200CCE702 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53F3A61D230982F200CCE702 /* LaunchScreen.storyboard */; };
 		53F3A62A230982F200CCE702 /* DataStructuresTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F3A629230982F200CCE702 /* DataStructuresTests.swift */; };
 		53F3A635230982F200CCE702 /* DataStructuresUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F3A634230982F200CCE702 /* DataStructuresUITests.swift */; };
+		53F3A6442309835300CCE702 /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F3A6432309835300CCE702 /* Stack.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		53F3A630230982F200CCE702 /* DataStructuresUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DataStructuresUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		53F3A634230982F200CCE702 /* DataStructuresUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStructuresUITests.swift; sourceTree = "<group>"; };
 		53F3A636230982F200CCE702 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		53F3A6432309835300CCE702 /* Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		53F3A613230982F000CCE702 /* DataStructures */ = {
 			isa = PBXGroup;
 			children = (
+				53F3A6422309832D00CCE702 /* Sources */,
 				53F3A614230982F000CCE702 /* AppDelegate.swift */,
 				53F3A616230982F000CCE702 /* ViewController.swift */,
 				53F3A618230982F000CCE702 /* Main.storyboard */,
@@ -123,6 +126,14 @@
 				53F3A636230982F200CCE702 /* Info.plist */,
 			);
 			path = DataStructuresUITests;
+			sourceTree = "<group>";
+		};
+		53F3A6422309832D00CCE702 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				53F3A6432309835300CCE702 /* Stack.swift */,
+			);
+			path = Sources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,6 +268,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				53F3A617230982F000CCE702 /* ViewController.swift in Sources */,
+				53F3A6442309835300CCE702 /* Stack.swift in Sources */,
 				53F3A615230982F000CCE702 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
