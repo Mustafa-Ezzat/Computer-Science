@@ -15,6 +15,7 @@
 		53F3A62A230982F200CCE702 /* DataStructuresTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F3A629230982F200CCE702 /* DataStructuresTests.swift */; };
 		53F3A635230982F200CCE702 /* DataStructuresUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F3A634230982F200CCE702 /* DataStructuresUITests.swift */; };
 		53F3A6442309835300CCE702 /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F3A6432309835300CCE702 /* Stack.swift */; };
+		53F3A6472309B8BF00CCE702 /* StackTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F3A6462309B8BF00CCE702 /* StackTestCase.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		53F3A634230982F200CCE702 /* DataStructuresUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStructuresUITests.swift; sourceTree = "<group>"; };
 		53F3A636230982F200CCE702 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		53F3A6432309835300CCE702 /* Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
+		53F3A6462309B8BF00CCE702 /* StackTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackTestCase.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +115,7 @@
 		53F3A628230982F200CCE702 /* DataStructuresTests */ = {
 			isa = PBXGroup;
 			children = (
+				53F3A6452309B8B000CCE702 /* Sources */,
 				53F3A629230982F200CCE702 /* DataStructuresTests.swift */,
 				53F3A62B230982F200CCE702 /* Info.plist */,
 			);
@@ -132,6 +135,14 @@
 			isa = PBXGroup;
 			children = (
 				53F3A6432309835300CCE702 /* Stack.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		53F3A6452309B8B000CCE702 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				53F3A6462309B8BF00CCE702 /* StackTestCase.swift */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -277,6 +288,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				53F3A6472309B8BF00CCE702 /* StackTestCase.swift in Sources */,
 				53F3A62A230982F200CCE702 /* DataStructuresTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
