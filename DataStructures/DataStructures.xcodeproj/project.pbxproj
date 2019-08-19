@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5342402C230AFF2B00C611F9 /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5342402B230AFF2B00C611F9 /* Queue.swift */; };
+		5342402E230B04EB00C611F9 /* QueuTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5342402D230B04EB00C611F9 /* QueuTestCase.swift */; };
 		53F3A615230982F000CCE702 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F3A614230982F000CCE702 /* AppDelegate.swift */; };
 		53F3A617230982F000CCE702 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F3A616230982F000CCE702 /* ViewController.swift */; };
 		53F3A61A230982F000CCE702 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53F3A618230982F000CCE702 /* Main.storyboard */; };
@@ -37,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5342402B230AFF2B00C611F9 /* Queue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
+		5342402D230B04EB00C611F9 /* QueuTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QueuTestCase.swift; sourceTree = "<group>"; };
 		53F3A611230982F000CCE702 /* DataStructures.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DataStructures.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		53F3A614230982F000CCE702 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		53F3A616230982F000CCE702 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -137,6 +141,7 @@
 			isa = PBXGroup;
 			children = (
 				53F3A6432309835300CCE702 /* Stack.swift */,
+				5342402B230AFF2B00C611F9 /* Queue.swift */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -146,6 +151,7 @@
 			children = (
 				53F3A6462309B8BF00CCE702 /* StackTestCase.swift */,
 				53F3A648230AA5A400CCE702 /* ChallengeTestCase.swift */,
+				5342402D230B04EB00C611F9 /* QueuTestCase.swift */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -284,6 +290,7 @@
 				53F3A617230982F000CCE702 /* ViewController.swift in Sources */,
 				53F3A6442309835300CCE702 /* Stack.swift in Sources */,
 				53F3A615230982F000CCE702 /* AppDelegate.swift in Sources */,
+				5342402C230AFF2B00C611F9 /* Queue.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,6 +299,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				53F3A6472309B8BF00CCE702 /* StackTestCase.swift in Sources */,
+				5342402E230B04EB00C611F9 /* QueuTestCase.swift in Sources */,
 				53F3A649230AA5A500CCE702 /* ChallengeTestCase.swift in Sources */,
 				53F3A62A230982F200CCE702 /* DataStructuresTests.swift in Sources */,
 			);

@@ -25,7 +25,6 @@ class ChallengeTestCase: XCTestCase {
         }
         return stack.isEmpty
     }
-    
     func test_checkParentheses() {
         XCTAssertTrue(checkParentheses("()"))
     }
