@@ -16,6 +16,7 @@
 		53F3A635230982F200CCE702 /* DataStructuresUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F3A634230982F200CCE702 /* DataStructuresUITests.swift */; };
 		53F3A6442309835300CCE702 /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F3A6432309835300CCE702 /* Stack.swift */; };
 		53F3A6472309B8BF00CCE702 /* StackTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F3A6462309B8BF00CCE702 /* StackTestCase.swift */; };
+		53F3A649230AA5A500CCE702 /* ChallengeTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F3A648230AA5A400CCE702 /* ChallengeTestCase.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		53F3A636230982F200CCE702 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		53F3A6432309835300CCE702 /* Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
 		53F3A6462309B8BF00CCE702 /* StackTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackTestCase.swift; sourceTree = "<group>"; };
+		53F3A648230AA5A400CCE702 /* ChallengeTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeTestCase.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,6 +145,7 @@
 			isa = PBXGroup;
 			children = (
 				53F3A6462309B8BF00CCE702 /* StackTestCase.swift */,
+				53F3A648230AA5A400CCE702 /* ChallengeTestCase.swift */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -289,6 +292,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				53F3A6472309B8BF00CCE702 /* StackTestCase.swift in Sources */,
+				53F3A649230AA5A500CCE702 /* ChallengeTestCase.swift in Sources */,
 				53F3A62A230982F200CCE702 /* DataStructuresTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
